@@ -17,8 +17,6 @@ secs = cf.sections()
 dbItems = cf.items("database")
 csvItems = cf.items("csv")
 
-print(dbItems)
-
 
 def delTable(conn):
     cur = conn.cursor()
